@@ -1,45 +1,20 @@
-/**
- * Positioning Activity Solution (CSS)
- *
- * Note: In this activity, students will be creating these files from scratch.
- * This file is provided for you to guide your class after they finish the assignment.
- * Review this so you know exactly what you'll be showing your students
- **/
-
-
-/** {*/
-  /*box-sizing: border-box;*/
-  /*text-align: left;*/
-  /*}*/
-
-* {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        background: transparent;
-          box-sizing: border-box;
-  text-align: left;
-    }
+/*style is for formatting index page*/
 
 body {
   font-family: 'Arial', Helvetica Neue, Helvetica, serif;
   font-size: 20px;
   line-height: 40px;
   color: #333;
-  background: grey;
-  }
+  background-image: url("../images/nice_snow.png");
+}
 
 .header {
-	  overflow: auto;
-      clear: both;
-	  position: absolute;
-	    margin-bottom: 40px;
-
-
+  overflow: auto;
+  clear: both;
+  position: absolute;
+  margin-bottom: 40px;
 }
+
 .name {
   position: fixed;
 top:0;
@@ -76,31 +51,27 @@ top:0;
 
 }
 
-
-.btn {
-    border: none;
-    background-color: inherit;
-    padding: 28px 28px;
-    font-size: 20px;
-    cursor: pointer;
-    display: inline-block;
-        position: fixed;
-            z-index: 3;
+.tabs {
+           position:fixed;
+            right:32px;
+         z-index: 3;
             top:0;
+           font-size: 20px;
+           color:grey;
+}
 
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+        display: inline-block;
 
 }
 
-.btn:hover {background: #eee;}
+li {
+    display: inline-block;
+}
 
-.About {color: grey;
-right:270px;
-           }
-.Portfolio {color: grey;
-  right:140px;}
-
-.Contact {color: grey;
-  right:20px;}
 
 
 
@@ -155,7 +126,6 @@ right:270px;
 	background: white;
 	width:270px;
 	padding:30px;
-
 }
 
 
@@ -163,30 +133,26 @@ right:270px;
 	height: 60px;
     width: 60px;
     margin-top: 30px;
+
 }
 
 #linkedln {
 	height: 60px;
     width: 60px;
-        margin-top: 30px;
-
+    margin-top: 30px;
+    margin-left:20px;
 }
 
 #stack {
-	height: 56px;
-    width: 56px;
-        margin-top: 30px;
-
+	height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left:20px;
 }
 
 
 
 
-#Connect-with-me {
-	width: 270px;
-	  
-
-}
 
 h1 {
 	color:white;

@@ -2,73 +2,68 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <!-- Linking CSS -->
-  <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
-
-  <title> My Bio page </title>
+      <meta charset="UTF-8">
+   <!-- Linking CSS -->
+      <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+    <title> My Bio page </title>
 </head>
 
 <body>
-  <header class="header" >
+
+  <!-- A fixed header contains name and page tags -->
+    <header class="header" >
     <div class="name">Tung Tung Ouyang</div>
     <div class="header-tab"></div>
-    <button class="btn About" <a href="http://ouyangtt.github.io">About</button>
-<button class="btn Portfolio">Portfolio</button>
-<button class="btn Contact">Contact</button>
-  </header>
+     <div class="tabs">
+       <ul>  
+         <li><a href="index.html" style="text-decoration:none">About |</a></li>
+         <li><a href="portfolio.html" style="text-decoration:none"> Portfolio |</a></li>
+         <li><a href="contact.html" style="text-decoration:none"> Contact</a></li>
+       </ul>
+     </div>
+    </header>
 
+    <!-- A section that contains entire contents -->
+    <div class="entire">
 
-
-
-  <div class="entire">
-
-    <div class="contact">
-      <h2>Contact</h2>
-
-      <br><hr> 
-
+        <div class="contact">
+        <h2>Contact</h2>
+        <hr> 
+    <!-- Create a form to submit info -->
       <div class="container">
-  <form action="/action_page.php">
-    <label for="fname">Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <form action="/action_page.php">
+                 <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Email</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your email..">
+                 <label for="lname">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your email..">
 
 
-    <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                 <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
-  </form>
-</div>
+                <input type="submit" value="Submit">
+          </form>
+      </div>
+        </div>
 
+        <div class="section connect-with-me">
+        <h3>Connect with Me</h3>
+        <hr>
+    <!-- Redirect to other websites for contact info -->
+          <a href="https://github.com/ouyangtt" style="text-decoration:none" target="_blank"> 
+       <img id="github" src="assets/images/git.png" alt="github">
+          </a>
+
+          <a href="https://www.linkedin.com/in/tung-tung-ouyang-03764093/" style="text-decoration:none" target="_blank"> 
+       <img id="linkedln" src="assets/images/link.png" alt="linkedin">
+          </a>
+
+          <a href="https://stackoverflow.com/users/9129451/tung-tung-ouyang" style="text-decoration:none" target="_blank"> 
+       <img id="stack" src="assets/images/stack.png" alt="stack">
+          </a>
+
+        </div>
     </div>
-
-    <div class="section connect-with-me">
-    <!-- <section id="Connect-with-me"> -->
-      <h3>Connect with Me</h3>
-
-      <hr>
-          <a href="https://github.com/ouyangtt"> 
-       <img id="github" src="assets/images/github_square_black-128.png" alt="github">
-          </a>
-
-          <a href="https://www.linkedin.com/in/tung-tung-ouyang-03764093/"> 
-       <img id="linkedln" src="assets/images/linkedin_square_color-128.png" alt="linkedin">
-          </a>
-
-          <a href="https://stackoverflow.com/users/9129451/tung-tung-ouyang"> 
-       <img id="stack" src="assets/images/stackoverflow.png" alt="stack">
-          </a>
-
-    </div>
-
-
-  </div>
-
-
 </body>
-
 </html>
