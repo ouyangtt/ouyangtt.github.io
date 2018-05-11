@@ -26,7 +26,7 @@ h2 {font-size:3.5rem}
 
 .list-social-icons a {color:#495057}
 
-.list-social-icons a:hover {color:#bd5d38}
+.list-social-icons a:hover {color:#0077B5}
 
 .list-social-icons a 
 
@@ -34,7 +34,7 @@ h2 {font-size:3.5rem}
 
 .list-icons{font-size:3rem}.list-icons 
 
-.list-inline-item i:hover {color:#bd5d38}
+.list-inline-item i:hover {color:#0077B5}
 
 #sideNav 
 
@@ -92,6 +92,6 @@ h2 {font-size:3.5rem}
 
 .resume-date{min-width:none}
 
-@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}.bg-primary{background-color:#0077B5!important}.text-primary{color:##0077B5!important}a{color:##0077B5}a:active,a:focus,a:hover{color:#824027}
+@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}.bg-primary{background-color:#0077B5!important}.text-primary{color:#0077B5!important}a{color:#0077B5}a:active,a:focus,a:hover{color:#0077B5}
 
 
